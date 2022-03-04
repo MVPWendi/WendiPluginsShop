@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wendi Plugins - плагины для серверов Unturned</title>
+    <link rel="stylesheet" href="~/css/main.css" />
+    <link rel="icon" href="~/favicon.png" />
+    <link rel="stylesheet" href="~/css/plugincard.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="logo">
+                <div class="logo-wendi">
+                    Wendi
+                </div>
+                <div class="logo-plugins">
+                    Plugins
+                </div>
+            </div>
+            
+            <div class="nav-buttons">
+                <div class="nav-button">
+                    <a asp-controller="Home" asp-action="Index">Плагины</a>
+                </div>
+                <div class="nav-button">
+                    <a asp-controller="Home" asp-action="HowToBuy">Как купить</a>
+                </div>
+            </div>
+            <div class="header-empty-2">
+                
+            </div>
+            <div class="profile-button">
+               <a asp-controller="Profile" asp-action="UserProfile">Профиль</a>
+            </div>
+        </div>
+        <div class="content">
+           @RenderBody()
+        </div>
+        <div class="footer">
+            <a class="footer-text" asp-controller="Home" asp-action="Privacy">пользовательское соглашение</a>
+            <p class="footer-text">Контакты: vitya.averin674335@gmail.com | ИНН: 381257723980</p>
+            <p class="footer-text">При использовании данного сайта, вы подтверждаете свое согласие на использование файлов cookie в соответствии с настоящим уведомлением в отношении данного типа файлов. Если вы не согласны с тем, чтобы мы использовали данный тип файлов, то вы должны соответствующим образом установить настройки вашего браузера или не использовать Сайт.</p>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,59 @@
+
+@{
+    Layout = "Forum";
+    /* td - ячейка tr - строка */
+}
+
+    <table class="table">
+        
+        @for (int i = 0; i < (ViewBag.Plugins.Count+3 / 3); i++)
+        {
+            <tr>
+                @for (int j = 0; j < 3; j++)
+                {   
+                if (j + i * 3 >= ViewBag.Plugins.Count)
+                {
+
+                    <td class="table-td">
+                        <div class="plugin-card"></div>
+                    </td>
+                    continue;
+                
+                }
+                if(ViewBag.Plugins[j+i*3]!=null)
+                    {
+                       <td class="table-td">
+                            <div class="plugin-card">
+                                <div class="plugin-background">
+                                    <div class="plugin-name">
+                                        @ViewBag.Plugins[j + i * 3].Name
+                                    </div>
+                                    <div class="plugin-author">
+                                       Автор: @ViewBag.Plugins[j + i * 3].Author
+                                    </div>
+
+                                    <div class="plugin-descrip">
+                                        @ViewBag.Plugins[j + i * 3].Description
+                                    </div>
+                                    <div class="plugin-buttons">
+                                        <div class="buycount">
+                                            Купили @ViewBag.Counts[j+i*3].ToString()
+                                        </div>
+                                        <div class="buycost">
+                                            @ViewBag.Plugins[j + i * 3].Cost RUB
+                                        </div>
+                                        <div class="buybutton">
+                                            <a asp-controller="Plugin" asp-action="PluginInfo" asp-route-id="@ViewBag.Plugins[j+i*3].Name">Подробнее</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                           </div>
+                    </td>
+                }
+                
+                }
+            </tr>            
+        }
+        
+    </table>

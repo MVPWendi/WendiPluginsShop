@@ -1,0 +1,86 @@
+
+.short-description{
+    margin-left: 1%;
+    width: 20%;
+height: 130px;
+margin-bottom: 0%;
+background: #232323;
+}
+.upper-bar{
+    width: 100%;
+    position: relative;
+    height: auto;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-top: 1%;
+}
+.upper-bar-main{
+    width: 100%;
+    
+    position: relative;
+    height: auto;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.short-description-text{
+
+    height: 20%;
+        font-family: Montserrat;
+        padding-left: 5%;
+        text-align: left;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 130%;
+        line-height: 36px;
+        color: white;
+
+}
+
+.buy-plugin-button{
+    margin-left: 52%;
+    width: 20%;
+height: 100px;
+text-decoration: none;
+color: white;
+text-align: center;
+font-family: Montserrat;
+font-weight: 700;
+font-size: 520%;
+}
+
+.full-description{
+    margin-left: 1%;
+    width: 98%;
+height: 630px;
+
+background: #232323;
+}
+.full-description-h1{
+
+    height: auto;
+        font-family: Montserrat;
+        padding-top: 1%;
+        text-align: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 430%;
+        line-height: 36px;
+        color: white;
+margin-bottom: 1%;
+}
+.full-description-text{
+line-height: 350px;
+    height: auto;
+    padding-left:2%;
+        font-family: Montserrat;
+        padding-top: 0%;
+        text-align: left;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 330%;
+        line-height: 36px;
+        color: white;
+
+}

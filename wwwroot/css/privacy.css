@@ -1,0 +1,23 @@
+.privacy{
+    height: auto;
+    width:100%;
+    padding-left:2%;
+    text-justify: auto;
+}
+.privacy h1 {
+    color: white;
+    width: 100%;
+    font-family: Montserrat;
+}
+
+.privacy h2 {
+    color: white;
+    width: 100%;
+    font-family: Montserrat;
+}
+
+.privacy p {
+    color: white;
+    width: 100%;
+    font-family: Montserrat;
+}
