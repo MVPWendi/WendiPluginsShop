@@ -1,2 +1,2 @@
 # WendiPluginsShop
-![Image alt](https://github.com/MVPWendi/WendiPluginsShop/raw/{branch}/{path}/image.png)
+![Image alt](https://github.com/MVPWendi/WendiPluginsShop/blob/master/wwwroot/GithubImages/Contract.png)
