@@ -1,18 +1,18 @@
 # WendiPluginsShop
-Данное веб-приложение представляет из себя онлайн магазин для продажи цифровых продуктов (плагинов) для игры Unturned
+Р”Р°РЅРЅРѕРµ РІРµР±-РїСЂРёР»РѕР¶РµРЅРёРµ РїСЂРµРґСЃС‚Р°РІР»СЏРµС‚ РёР· СЃРµР±СЏ РѕРЅР»Р°Р№РЅ РјР°РіР°Р·РёРЅ РґР»СЏ РїСЂРѕРґР°Р¶Рё С†РёС„СЂРѕРІС‹С… РїСЂРѕРґСѓРєС‚РѕРІ (РїР»Р°РіРёРЅРѕРІ) РґР»СЏ РёРіСЂС‹ Unturned
 
-## Внешний вид приложения
- Главная страница сайта
+## Р’РЅРµС€РЅРёР№ РІРёРґ РїСЂРёР»РѕР¶РµРЅРёСЏ
+ Р“Р»Р°РІРЅР°СЏ СЃС‚СЂР°РЅРёС†Р° СЃР°Р№С‚Р°
  ![Image alt](https://github.com/MVPWendi/WendiPluginsShop/blob/master/wwwroot/GithubImages/Main1.png)
- Страницы логина и регистрации
+ РЎС‚СЂР°РЅРёС†С‹ Р»РѕРіРёРЅР° Рё СЂРµРіРёСЃС‚СЂР°С†РёРё
  ![Image alt](https://github.com/MVPWendi/WendiPluginsShop/blob/master/wwwroot/GithubImages/Log1.png)
  ![Image alt](https://github.com/MVPWendi/WendiPluginsShop/blob/master/wwwroot/GithubImages/Log2.png)
- Страница с инструкцией по установке
+ РЎС‚СЂР°РЅРёС†Р° СЃ РёРЅСЃС‚СЂСѓРєС†РёРµР№ РїРѕ СѓСЃС‚Р°РЅРѕРІРєРµ
  ![Image alt](https://github.com/MVPWendi/WendiPluginsShop/blob/master/wwwroot/GithubImages/HowBuy.png)
- Станица загрузки лоадера
+ РЎС‚Р°РЅРёС†Р° Р·Р°РіСЂСѓР·РєРё Р»РѕР°РґРµСЂР°
   ![Image alt](https://github.com/MVPWendi/WendiPluginsShop/blob/master/wwwroot/GithubImages/Loader.png)
- Станица c пользовательским соглашением
+ РЎС‚Р°РЅРёС†Р° c РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРј СЃРѕРіР»Р°С€РµРЅРёРµРј
  ![Image alt](https://github.com/MVPWendi/WendiPluginsShop/blob/master/wwwroot/GithubImages/Contract.png)
- Страница профиля
+ РЎС‚СЂР°РЅРёС†Р° РїСЂРѕС„РёР»СЏ
  ![Image alt](https://github.com/MVPWendi/WendiPluginsShop/blob/master/wwwroot/GithubImages/Profile.png)
 
