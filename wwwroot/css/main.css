@@ -1,0 +1,192 @@
+
+*{
+    padding: 0;
+    margin:  0;
+}
+.wrapper {
+    min-height: 100%;
+    overflow:  hidden;
+    background: #181818;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+/*-------------- ГЛАВНЫЕ БЛОКИ ---------------- */
+.header {
+    width: 100%;
+    min-height: 170px;
+    background: #232323;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.content-content {
+    width: 30%;
+}
+.content-buttons {
+width: 30%;
+
+}
+.content {
+    background: #181818;
+    width: 100%;
+    height: 40%;
+    min-height: 1080px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer {
+    margin-top: 1%;
+    background: #232323;
+    width: 100%;
+    height: 20%;
+}
+
+
+/*--------------  БЛОКИ HEADER'A ---------------- */
+.nav-buttons {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    min-width: 40%;
+
+}
+.profile-button {
+    width: 130px;
+    height: 100%;
+}
+.logo {
+    width: 25%;
+    height: 100%;
+    min-height: 170px;
+    overflow: hidden;
+}
+.header-empty-2{
+    width: 10%;
+    height: 100%;
+}
+
+
+
+
+
+
+/*------------ НАВ КНОПОЧКИ ------------------ */
+.nav-buttons a {
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    transition: .3s ease-in-out;
+}
+.nav-buttons a:hover {
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    transform: scale(1.2);
+}
+.nav-button {
+    
+    position: relative;
+    width: 324px;
+    height: 59px;
+    top: 56px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 300%;
+    line-height: 59px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+/*---------------ПРОФИЛЬ КНОПОЧКА --------------- */
+.profile-button a{
+    position: relative;
+    width: 324px;
+    height: 59px;
+    top: 56px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 59px;
+    /* identical to box height */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: .3s ease-in-out;
+    color: #FFFFFF;
+}
+.profile-button a:hover {
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    transform: scale(1.2);
+}
+
+
+/*-------------ЛОГО----------------- */
+.logo-wendi {
+    position: relative;
+    width: auto;
+    height: 57px;
+    margin-left: 50px;
+    top: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 88px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.logo-plugins {
+    position: relative;
+    width: auto;
+    height: 40px;
+    margin-left: 170px;
+    top: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/*-----------ФУТЕР------------------- */
+.footer-text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    height: auto;
+    padding-left: 1%;
+    font-size: 70%;
+    line-height: 36px;
+    color: white;
+}

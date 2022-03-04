@@ -1,0 +1,158 @@
+
+*{
+    padding: 0;
+    margin:  0;
+}
+/*-----------плагин------------------- */
+.plugin-card {
+    margin-top: 2%;
+    width: 90%;
+    min-height: 250px;
+    position: relative;
+    margin-left: 2%;
+    margin-right: 50px;
+}
+
+.table{
+    width: 100%;
+}
+.table-td
+{
+   width: 30%;
+   max-width: 40%;
+}
+.plugin-background {
+    width: 100%;
+    min-height: 250px;
+    float: right;
+    background: #232323;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 18px;
+    position: relative;
+}
+
+.plugin-name {
+    padding-top: 2%;
+    width: 100%;
+    height: 10%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 200%;
+    line-height: 29px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.plugin-author {
+    width: 100%;
+    height: 31px;
+    padding-top: 2%;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 200%;
+    line-height: 29px;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.plugin-descrip {
+    padding-top: 3%;
+    padding-left: 1%;
+    position: relative;
+    width: 98%;
+    min-height: 80px;
+    max-height: 100px;
+    font-family: Montserrat;
+    overflow: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 120%;
+    line-height: 17px;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.plugin-buttons {
+    width: 100%;
+    min-height: 42px;
+    position: absolute;
+    top: 200px;
+    display: flex;
+}
+
+
+
+.buycount {
+    width: 35%;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    align-items: center;
+    text-align: center;
+}
+.buycost { 
+    width: 50%;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    align-items: center;
+    text-align: center;
+}
+.buybutton {   
+    width: 148px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    align-items: center;
+    text-align: center;
+}
+.buybutton a{
+    width: auto;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: .3s ease-in-out;
+    color: #FFFFFF;
+}
+.buybutton a:hover{
+    width: auto;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: .3s ease-in-out;
+    color: #adadad;
+}

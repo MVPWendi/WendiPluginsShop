@@ -1,0 +1,69 @@
+
+.profile-plugin{
+    background: rgb(44, 44, 44);
+    height: 10%;
+    width: 80%;
+    margin-top: 1%;
+    border-radius: 5px;
+    min-height: 100px;
+    border: black solid 4px;
+}
+.profile-plugin-name {
+    text-decoration: none;
+    text-align: center;
+    font-size: 300%;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    transition: .3s ease-in-out;
+}
+
+.profileplugin{
+    margin-top: 2%;
+    margin-left: 3%;
+    width: 80%;
+    height: 120px;
+    background: #232323;
+    border-radius: 12.5px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 17px;
+    display: flex;
+    color: #FFFFFF;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    transition: .1s ease-in-out;
+    border: black solid 1px;
+}
+.profileplugin:hover{
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 82%;
+    height: 120px;
+    background: #353535;
+    border-radius: 12.5px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 57px;
+    line-height: 17px;
+    display: flex;
+    color: #FFFFFF;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    transition: .1s ease-in-out;
+    border: black solid 5px;
+}
+.profileplugin:after{
+    content: '';
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}

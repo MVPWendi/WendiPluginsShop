@@ -1,0 +1,88 @@
+.profile {
+  width: 95%;
+  display: inline-block;
+  height: 180px;
+  border: 2px solid #3efe37;
+  border-radius: 15px;
+  margin: 15px 4px;
+  padding-left: 9px;
+}
+
+.profile img{
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+}
+.pprof{
+  margin: 0px;
+  font-family: "impact";
+  width: 100%;
+  text-align: center;
+  color: #3efe37;
+  display: inline-block;
+}
+.profile h1{
+  margin: 0px;
+  font-family: "impact";
+  width: 100%;
+  text-align: center;
+  color: #3efe37;
+  display: inline-block;
+}
+.aprof{
+  margin: 0px;
+  padding: 0px;
+  font-family: "impact";
+  width: 100%;
+  text-align: center;
+  color: #3efe37;
+  display: inline-block;
+}
+.profile-div-image{
+  height: 90px;
+  width: 90px;
+  display: inline-block;
+  margin: 15px 5px;
+  overflow: hidden;
+  border: 2px solid #3efe37;
+  border-radius: 2px;
+}
+.profile-div-div{
+  height: 90px;
+  width: 180px;
+  display: inline-block;
+  margin: 15px 5px;
+  overflow: hidden;
+
+  border-radius: 5px;
+}
+.profile-div-empty{
+  height: 10px;
+  width: 80px;
+  display: inline-block;
+  margin: 15px 5px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.profile a{
+  margin: 8px 5px;
+  font-size: 25px;
+  text-decoration: none;
+  font-family: "impact";
+  text-align:  center;
+  color: #3efe37;
+}
+.profile a:hover{
+  margin: 8px 5px;
+  font-size: 25px;
+  text-decoration: none;
+  font-family: "impact";
+  color: #ffffff;
+}
+.profile p{
+  margin: 8px 5px;
+  font-size: 25px;
+  font-family: "impact";
+  color: #3efe37;
+
+}
